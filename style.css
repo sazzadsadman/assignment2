@@ -7,7 +7,6 @@
 .header {
     /* width: 1920px; */
     height: 120vh;
-    
     padding: 50px 240px 45px 240px;
     background: rgba(255, 144, 14, 0.1);
 }
@@ -65,4 +64,26 @@ nav {
     background-repeat: no-repeat;
 }
   
+ /*Responsive Styles  */
+@media screen and (max-width:576px) {
+    .header {
+        height: 60vh;
+        padding: 5px;
+    }
+    .logo{
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .header > h1 {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
     
+}
