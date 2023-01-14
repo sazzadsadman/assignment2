@@ -6,8 +6,8 @@
 /* Header Style {logo, menu, banner */
 .header {
     /* width: 1920px; */
-    height: 120vh;
-    padding: 50px 240px 45px 240px;
+    height: 130vh;
+    padding: 50px 150px 45px 150px;
     background: rgba(255, 144, 14, 0.1);
 }
 .logo{
@@ -39,7 +39,6 @@ nav {
     font-weight: 900;
 }
 .header > p {
-    font-weight: 400;
     font-size: 16px;
     text-align: center;
     padding-top: 15px;
@@ -49,6 +48,8 @@ nav {
     padding: 15px 0;
 }
 .btn1 {
+    color: white;
+    font-weight: 600;
     justify-content: center;
     padding: 15px 20px;
     background: #FF900E;
@@ -62,8 +63,42 @@ nav {
     background-position: top ;
     background-size: contain;
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
-  
+
+/* Section2 Styles */
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 200px 50px 200px;
+}
+.image-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    border-radius: 10px;
+    
+}
+.section2-title{
+    color: #727272;
+    font-size: 30px;
+    font-weight: 700;
+}
+#bold-text{
+    color: #131313;
+    font-weight: 900;
+}
+#colored-text{
+    color: #FF900E;
+    font-weight: 900;
+}
+.section2-description {
+    padding: 15px 0;
+    font-size: 16px;
+}
+    
  /*Responsive Styles  */
 @media screen and (max-width:576px) {
     .header {
