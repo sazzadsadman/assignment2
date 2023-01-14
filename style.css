@@ -58,9 +58,7 @@ nav {
 }
 .banner-img {
     height: 700px;
-    text-align: center;
     background-image: url(images/banner.png);
-    background-position: top ;
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -98,7 +96,53 @@ nav {
     padding: 15px 0;
     font-size: 16px;
 }
-    
+/* Section3 Styles */
+.section3 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 70px;
+    padding: 20px 150px 50px 150px;
+}
+.section3-title-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.section3-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+.section3-content > p{
+    padding: 15px 0;
+    font-size: 16px;
+}
+/* .section3-contents {
+    padding-left: 15px;
+} */
+.section3-content-item{
+    padding: 15px 0 0 0;
+}
+.content-box{
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+.content-box > h5{
+    padding-bottom: 10px;
+    color: black;
+    font-weight: 600;
+}
+.section3-img{
+    height: 900px;
+    width: 100%;
+    background: url(images/architect.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+   
+}
  /*Responsive Styles  */
 @media screen and (max-width:576px) {
     .header {
