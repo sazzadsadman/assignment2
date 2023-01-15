@@ -325,7 +325,7 @@ footer{
     .section2 {
         flex-direction: column-reverse;
         gap: 15px;
-        padding: 100px 0px;
+        padding: 150px 0px;
     }
     #section2-btn{
         text-align: center;
