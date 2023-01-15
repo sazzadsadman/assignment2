@@ -224,7 +224,7 @@ Bonus Section Style
     
     margin-top: 60px ;
     padding: 50px 150px 45px 150px;
-    background: rgba(255, 144, 14, 0.1);
+    background: rgba(248, 142, 120, 0.396);
     text-align: center;
     font-size: 25px;
     font-weight: 900;
@@ -282,6 +282,18 @@ Bonus Section Style
     width: 30%;
 }
     
+/*---------------- 
+Footer Styles
+---------------- */
+footer{
+    margin-top: 30px ;
+    padding: 50px 150px 45px 150px; 
+    text-align: center;
+}
+#footer-text{
+    padding: 20px 100px;
+    background: #FFF4E7;
+}
  /*------------------
  Responsive Styles
  ------------------*/
@@ -362,6 +374,11 @@ Bonus Section Style
     }
     #contact-text{
         margin: 0;
+    }
+    footer{
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 0px 10px 0px 10px;
     }
     
     
