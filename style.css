@@ -83,7 +83,7 @@ Section2 Styles
 }
 .section2-title{
     color: #727272;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
 }
 #bold-text{
@@ -153,12 +153,14 @@ Section4 Styles
     padding: 0px 150px 0 150px;
 }
 .section4-title{
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 700;
+    color: #131313;
 }
 .section4-description{
     padding: 15px 0;
     font-size: 16px;
+    color: #727272;
 }
 .facts-container {
     display: flex;
@@ -166,7 +168,6 @@ Section4 Styles
     text-align: center;
     align-items: center;
     padding: 30px 0;
-    
 }
 .fact{
     width: 170px;
@@ -175,15 +176,45 @@ Section4 Styles
     padding: 15px 10px;
     border-radius: 10px;
     display: flex;
+    gap: 5px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.fact > h2{
+    color: #424242; 
+    font-weight: 800;
+}
+.fact > p{
+    font-weight: 600;
+    color: #727272;
 }
 .fact:hover {
     font-size: 120%;
     background: rgba(255, 144, 14, 0.1);
 }
-
+/* ------------------
+Section5 Styles
+------------------ */
+.section5-text{
+    text-align: center;
+    padding:50px 0 30px 0;
+}
+.section5-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #131313;
+}
+.section5-description{
+    padding: 15px 0;
+    font-size: 16px;
+    color: #727272;
+}
+.brands{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 150px;
+}
 
 
  /*------------------
@@ -215,7 +246,7 @@ Section4 Styles
     .section2 {
         flex-direction: column-reverse;
         gap: 15px;
-        padding: 0 10px;
+        padding: 100px 0px;
     }
     #section2-btn{
         text-align: center;
@@ -244,6 +275,12 @@ Section4 Styles
     }
     .facts-container {
         flex-direction: column;
+        gap: 10px;
+    }
+    .brands{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 10px;
     }
     
