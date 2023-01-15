@@ -190,8 +190,8 @@ Section4 Styles
     color: #727272;
 }
 .fact:hover {
-    font-size: 120%;
     background: rgba(255, 144, 14, 0.1);
+    transform: scale(1.1);
 }
 /* ------------------
 Section5 Styles
