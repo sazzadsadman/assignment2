@@ -138,19 +138,45 @@ nav {
     background-repeat: no-repeat;
     border-radius: 10px;
 }
-/* .section3-yellow-box{
-    color: white;
-    width: 220px;
-    height: 75px;
-    background: #FF900E;
-    border-radius: 10px;
-    text-align: center;  
-    padding-top: 50px;
-} */
 #yellow-box {
     margin: 600px 0 0 -90px;
     border-radius: 10px;
 } 
+/* Section4 Styles */
+.section4{
+    padding: 0px 150px 0 150px;
+}
+.section4-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.section4-description{
+    padding: 15px 0;
+    font-size: 16px;
+}
+.facts-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 30px 0;
+    
+}
+.fact{
+    width: 170px;
+    height: 170px;
+    border: 1px solid #FF900E;
+    padding: 15px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
  /*Responsive Styles  */
 @media screen and (max-width:576px) {
     .header {
