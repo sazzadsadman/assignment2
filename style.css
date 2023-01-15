@@ -221,7 +221,7 @@ Bonus Section Style
 -------------------- */
 
 .bonus-section{
-    /* height: 60vh; */
+    
     margin-top: 60px ;
     padding: 50px 150px 45px 150px;
     background: rgba(255, 144, 14, 0.1);
@@ -230,11 +230,7 @@ Bonus Section Style
     font-weight: 900;
     color: #131313;
 }
-/* hr {
-    height: 5px; 
-    background-color: #131313;
-    margin: 20px 500px;
-} */
+
 .contact {
     display: flex;
     justify-content: center;
@@ -352,5 +348,21 @@ Bonus Section Style
         align-items: center;
         gap: 10px;
     }
+
+    .bonus-section{
+        width: 100%;
+        padding: 10px;
+        margin: 30;
+    }
+    .contact{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    #contact-text{
+        margin: 0;
+    }
+    
     
     }
