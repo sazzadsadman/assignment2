@@ -216,7 +216,76 @@ Section5 Styles
     padding: 0 150px;
 }
 
+/* -------------------
+Bonus Section Style
+-------------------- */
 
+.bonus-section{
+    /* height: 60vh; */
+    margin-top: 60px ;
+    padding: 50px 150px 45px 150px;
+    background: rgba(255, 144, 14, 0.1);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #131313;
+}
+/* hr {
+    height: 5px; 
+    background-color: #131313;
+    margin: 20px 500px;
+} */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+#contact-text{
+    margin: 5px 200px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px 0px;
+    background-color: #525252;
+    border-radius: 5px;
+    
+}
+.contact-details {
+    text-align: left;
+    font-size: 18px;
+    color: #424242;
+}
+.contact-details > p{
+    padding: 10px 0;
+}
+.social {
+    padding: 10px 0;
+    display: flex;
+    gap: 30px;
+}
+.contact-form{
+    margin: 20px;
+    text-align: left;
+    padding: 20px;
+    background-color: #525252;
+    border-radius: 5px;
+}
+.contact-form  input, textarea {
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: #ffffff;
+}
+#submit-btn{
+    color: white;
+    background-color:  #525252;
+    border: 2px solid white;
+    width: 30%;
+}
+    
  /*------------------
  Responsive Styles
  ------------------*/
