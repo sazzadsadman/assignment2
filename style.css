@@ -3,9 +3,9 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
-/* Header Style {logo, menu, banner */
+/* --------------------------------
+Header Style {logo, menu, banner ---------------------------------*/
 .header {
-    /* width: 1920px; */
     height: 130vh;
     padding: 50px 150px 45px 150px;
     background: rgba(255, 144, 14, 0.1);
@@ -64,7 +64,9 @@ nav {
     border-radius: 10px;
 }
 
-/* Section2 Styles */
+/* ---------------
+Section2 Styles 
+----------------*/
 .section2{
     display: flex;
     justify-content: center;
@@ -96,7 +98,9 @@ nav {
     padding: 15px 0;
     font-size: 16px;
 }
-/* Section3 Styles */
+/* ---------------
+Section3 Styles 
+----------------*/
 .section3-part-one {
     display: flex;
     justify-content: center;
@@ -142,7 +146,9 @@ nav {
     margin: 600px 0 0 -90px;
     border-radius: 10px;
 } 
-/* Section4 Styles */
+/* ---------------
+Section4 Styles 
+----------------*/
 .section4{
     padding: 0px 150px 0 150px;
 }
@@ -173,11 +179,16 @@ nav {
     align-items: center;
     justify-content: center;
 }
+.fact:hover {
+    font-size: 120%;
+    background: rgba(255, 144, 14, 0.1);
+}
 
 
 
-
- /*Responsive Styles  */
+ /*------------------
+ Responsive Styles
+ ------------------*/
 @media screen and (max-width:576px) {
     .header {
         height: 60vh;
@@ -214,14 +225,26 @@ nav {
     }
     .section3-part-one{
         flex-direction: column;
-        width: 100%;
+        width: 95%;
         padding: 10px;
         gap: 10px;
     }
+    .section3-img{
+        height: 500px;
+        width: 100%;
+    }
     #yellow-box {
-        height: 110px;
-        margin: 0px 0 0 0px;
+        height: 90px;
+        margin: 400px 0 0 100px;
         border-radius: 10px;
     } 
+    .section4{
+        padding: 15px;
+        margin-top: 10px;
+    }
+    .facts-container {
+        flex-direction: column;
+        gap: 10px;
+    }
     
     }
